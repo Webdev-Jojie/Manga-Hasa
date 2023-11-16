@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="panit-sa-manga.css">
+    <title>Manga Hasa</title>
+</head>
+<body>
+
+    <div id="content-container">
+        <h1>Manga Generator</h1>
+        <label for="offset"><b>Offset</b></label>
+        <input type="number" id="offset">
+        <label for="limit"><b>Limit</b></label>
+        <input type="number" id="limit">
+        <button id="generate">GENERATE</button>
+    </div>
+
+    <!-- showModalBtn -->
+    <!-- bali akong button kay mangalist -->
+    <div id="mangalist"></div>
+    
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeBtn">&times;</span>
+          <div class="modal-info">
+            <img class="modal-cover-img" id="modalCoverImg">
+            <div class="modal-text">
+              <h1 id="modalTitle"></h1>
+              <div id="descriptionContainer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <img src="" alt="">
+
+    <script src="punoan-sa-manga.js"></script>
+</body>
+</html>
